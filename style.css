@@ -277,5 +277,24 @@ body {
     bottom: 20%;
     left: -30%;
     transform: translateX(50%);
+    opacity: 0;
+    transition: 1s;
 }
 
+hr{
+    background: #fff;
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+    width: 60%;
+
+}
+
+.service-desc p{
+    font-size: 14px;
+}
+
+.single-service:hover .service-desc{
+    bottom: 40%;
+    opacity: 1;
+}
