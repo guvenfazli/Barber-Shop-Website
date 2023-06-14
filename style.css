@@ -270,3 +270,12 @@ body {
 .single-service:hover .overlay{ 
     opacity: 1;
 }
+
+.service-desc{
+    width: 80%;
+    position: absolute;
+    bottom: 20%;
+    left: -30%;
+    transform: translateX(50%);
+}
+
