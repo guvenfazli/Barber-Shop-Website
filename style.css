@@ -72,11 +72,39 @@ body {
 }
 
 .sideNav{
-    width: 120px;
+    width: 250px;
     height: 100vh;
     position: fixed;
     right: 0;
     top: 0;
     background: #009688;
     z-index: 2;
+}
+
+.sideNav ul li{
+    list-style: none;
+    margin: 50px -20px;
+}
+
+.sideNav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.menuBtn{
+    width: 50px;
+    height: 50px;
+    background: #009688;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top: 30px;
+    border: 3px;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.menuBtn img{
+    width: 20px;
+    margin-top: 15px;
 }
