@@ -1,6 +1,7 @@
 body { 
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 .banner { 
@@ -25,9 +26,37 @@ body {
 
 .banner-text h1{
     font-size: 130px;
+    font-family: 'Kaushan Script', cursive;
 }
 
 .banner-text p{
     font-size: 20px;
     font-style: italic;
+}
+
+.banner-btn{
+    margin: 70px auto 0;
+}
+
+.banner-btn a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: white;
+    border: 0.5px solid white;
+    position: relative;
+    z-index: 1;
+
+}
+
+.banner-btn a span{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    z-index: -1;
 }
