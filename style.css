@@ -343,8 +343,49 @@ padding: 70px;
     border-radius: 5px;
     box-shadow: 0 10px 20px 3px #00968814;
     cursor: pointer;
+    transition: transform .5s;
 }
 
 .testimonial-col p{
     font-size: 14px;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.user h4{
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+
+.user img{
+    width: 40px;
+    margin-right: 20px;
+    border-radius: 3px;
+}
+
+.user-info .fa{
+    margin-left: 10px;
+    color: #27c0ff;
+    font-size: 20px;
+}
+
+.user-info small{
+    color: #009688;
+}
+
+.testimonial-col:hover{
+    transform: translateY(-7px);
+
+}
+
+@media screen and (max-width: 770px) {
+    .testiominal-col { 
+        flex-basis: 100%;
+    }
+
 }
