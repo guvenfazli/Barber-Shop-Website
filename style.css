@@ -43,20 +43,30 @@ body {
     text-decoration: none;
     display: inline-block;
     margin: 0 10px;
-    padding: 12px 0;
+    padding: 12px 0px;
     color: white;
     border: 0.5px solid white;
     position: relative;
     z-index: 1;
+    transition: color 0.5s;
 
 }
 
 .banner-btn a span{
-    width: 50%;
+    width: 0%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
     background: white;
     z-index: -1;
+    transition: 0.5s;
+}
+
+.banner-btn a:hover span{
+    width: 100%;
+}
+
+.banner-btn a:hover{
+    color: black;
 }
