@@ -214,4 +214,20 @@ body {
         flex-basis: 100%
     }
 
+    .features-img{
+        flex-basis: 100%;
+    }
+
+    .features-img img{
+        width: 100%;
+    }
+
+}
+
+/*--Services--*/
+
+#service{
+    width: 100%;
+    padding: 70px 0;
+    background: #efefef;
 }
