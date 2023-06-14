@@ -298,3 +298,19 @@ hr{
     bottom: 40%;
     opacity: 1;
 }
+
+@media screen and (max-width: 770px) {
+    .single-service{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+    .service-desc p{
+        font-size: 12px;
+    }
+
+    hr{
+        margin: 5px auto;
+    }
+
+}
