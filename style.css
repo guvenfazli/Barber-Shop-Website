@@ -227,7 +227,7 @@ body {
 /*--Services--*/
 
 #service{
-    width: 100%;
+    width: 85%;
     padding: 70px 0;
     background: #efefef;
 }
@@ -313,4 +313,38 @@ hr{
         margin: 5px auto;
     }
 
+    .single-service:hover .service-desc{
+        bottom: 25% !important;
+        
+        }
+
+}
+
+/*---TESTIMONIAL---*/
+
+#testimonial{
+width: 85%;
+padding: 70px;
+}
+
+.testimonial-row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.testimonial-col{
+    flex-basis: 28%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 3px #00968814;
+    cursor: pointer;
+}
+
+.testimonial-col p{
+    font-size: 14px;
 }
