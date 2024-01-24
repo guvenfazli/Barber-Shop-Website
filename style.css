@@ -438,4 +438,8 @@ hr{
         flex-basis: 100%;
         font-size: 14px;
     }
+
+    .footer-img{
+        top: 25%;
+    }
 }
